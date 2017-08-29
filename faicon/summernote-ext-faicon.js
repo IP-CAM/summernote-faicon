@@ -78,7 +78,7 @@
 				$.each(fa_icons, function (icon_name, hex_code) {
 						$list.append('<button class="btn btn-default btn-sm" ' +
               'title="' + icon_name + '" data-hexcode="' + hex_code + '">' +
-              '<i class="fa fa-' + icon_name + '"></i></button>');
+              '<i class="fa fa-fw fa-' + icon_name + '"></i></button>');
 					});
 
 				$("button", $list).click(function (event) {
